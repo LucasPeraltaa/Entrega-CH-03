@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "node-sass": "^9.0.0",
     "sass": "^1.66.1"
   },
-  "name": "entrega03",
+  "name": "exit",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
