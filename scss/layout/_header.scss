@@ -1,41 +1,50 @@
 @import "../utilities/variables";
 
 header{
-    background-color: #1A1A1A;
+   display: flex;
+   min-height: 70px;
+   justify-content: space-between;
+   background-color: #1a1a1a;
+   align-items: center;
+   padding: 10px;
+   border-bottom: 1px solid $color-cda;
+
+   .logo{
     display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid $color-cda;
     align-items: center;
-    padding: 10px;
-
-    h1{
-        color: $color-cda;
-    }
     img{
-        width: 150px;
+        height: 50px;
+        margin-right: 10px;
     }
+   }
+   a{
+    text-decoration: none;
+    color: $color-cda;
+   }
+   nav{
+    
+    ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        li{
+            a{
+                font-weight: 600;
+                padding: 10px;
+                margin: 10px;
+                color: $color-cda;
+                border-radius: 5px;
 
-    nav{
-        ul{
-            display: flex;
-            list-style: none;
-            li{
-                
-                a{
-                    color: $color-cda;
-                    margin: 10px;
-                    padding: 10px;
-                    border-radius: 5px;
-                    text-decoration: none;
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    font-size: 20px;
-
-                    &:hover{
-                        background-color: $color-cda;
-                        color: black;
-                    }
+                &:hover{
+                    background-color: $color-cda;
+                    color: black;
                 }
             }
         }
     }
+    
+   }
+
 }
+
+

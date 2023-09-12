@@ -1,0 +1,36 @@
+@import "../utilities/variables";
+
+@media screen and (max-width: 768px){
+    .promo-socios{
+        justify-content: center;
+    }
+    header{
+        flex-direction: column;
+        nav{
+            padding: 10px 0px;
+        }
+    }
+    .container{
+        .portada{
+            img{
+                max-width: 400px;
+            }
+        }
+        .partido{
+            img{
+                margin-top: 20px;
+            }
+        }
+        .video{
+            margin-top: 20px;
+            video{
+                max-width: 300px;
+                display: flex;
+                align-items: center;
+            }
+            p{
+                justify-content: center;
+            }
+        }
+    }   
+}
