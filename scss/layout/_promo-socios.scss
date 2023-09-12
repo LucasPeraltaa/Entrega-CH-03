@@ -1,0 +1,13 @@
+@import "../utilities/variables";
+
+.promo-socios{
+    background-color: $color-cda;
+    p{
+        color: #1A1A1A;
+        text-align: center;
+        font-style: oblique;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        padding: 15px;
+    }
+}

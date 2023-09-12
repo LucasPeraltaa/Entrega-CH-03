@@ -1,3 +1,11 @@
-*body{
-    background-color: black;
-}
+// LAYOUT
+@import 'layout/header';
+@import 'layout/promo-socios';
+
+// BASE
+@import 'base/reset';
+
+//UTILITIES
+@import "utilities/variables";
+
+// COMPONENTS

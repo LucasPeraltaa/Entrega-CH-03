@@ -1,5 +1,52 @@
-* body {
-  background-color: black;
+header {
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #fac232;
+  align-items: center;
+  padding: 10px;
+}
+header h1 {
+  color: #fac232;
+}
+header img {
+  width: 150px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  color: #fac232;
+  margin: 10px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+header nav ul li a:hover {
+  color: red;
+}
+
+.promo-socios {
+  background-color: #fac232;
+}
+.promo-socios p {
+  color: #1A1A1A;
+  text-align: center;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A1A1A;
 }
 
 /*# sourceMappingURL=style.css.map */
