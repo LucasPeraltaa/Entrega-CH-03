@@ -78,6 +78,11 @@ header nav ul li a:hover {
   .container .video p {
     justify-content: center;
   }
+  footer .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
 }
 .container .portada {
   display: flex;
@@ -137,6 +142,7 @@ header nav ul li a:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 50px;
 }
 .container .refuerzos .refuerzo {
   margin-top: 20px;
@@ -153,12 +159,62 @@ header nav ul li a:hover {
   text-align: center;
 }
 
+footer {
+  width: 100%;
+  background-color: #1a1a1a;
+}
+footer .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 30px 0px;
+}
+footer .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .grupo-1 .box figure img {
+  width: 70px;
+}
+footer .grupo-1 .box h3 {
+  color: #fac232;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+footer .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+footer .grupo-1 .box .redes a {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 40px;
+}
+footer .grupo-1 .box .redes a img {
+  width: 50px;
+}
+footer .grupo-2 {
+  background-color: #fac232;
+  padding: 10px 10px;
+  text-align: center;
+  color: black;
+}
+footer .grupo-2 small {
+  font-size: 15px;
+}
+
 * {
   margin: 0 auto;
 }
 
 body {
-  background-color: #1A1A1A;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
