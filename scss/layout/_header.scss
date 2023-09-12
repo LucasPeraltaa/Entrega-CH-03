@@ -24,12 +24,15 @@ header{
                 a{
                     color: $color-cda;
                     margin: 10px;
+                    padding: 10px;
+                    border-radius: 5px;
                     text-decoration: none;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
                     font-size: 20px;
 
                     &:hover{
-                        color: red;
+                        background-color: $color-cda;
+                        color: black;
                     }
                 }
             }

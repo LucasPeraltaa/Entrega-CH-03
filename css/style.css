@@ -19,12 +19,15 @@ header nav ul {
 header nav ul li a {
   color: #fac232;
   margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 }
 header nav ul li a:hover {
-  color: red;
+  background-color: #fac232;
+  color: black;
 }
 
 .promo-socios {
