@@ -78,6 +78,11 @@ header nav ul li a:hover {
   .container .video p {
     justify-content: center;
   }
+  .container-plantel img {
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 10px;
+  }
   footer .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
@@ -157,6 +162,54 @@ header nav ul li a:hover {
 }
 .container .refuerzos .refuerzo p {
   text-align: center;
+}
+
+.container-plantel .box1 h2 {
+  color: #fac232;
+  text-align: center;
+  margin: 10px;
+}
+.container-plantel .box1 p {
+  color: #fac232;
+  text-align: center;
+}
+.container-plantel .box1 img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100px;
+  max-height: 800px;
+  border-radius: 10px;
+}
+.container-plantel .box2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-plantel .box2 table {
+  border: 2px solid #fac232;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.container-plantel .box2 table thead {
+  background: #fac232;
+}
+.container-plantel .box2 table thead tr th {
+  color: black;
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container-plantel .box2 table tbody tr {
+  cursor: pointer;
+}
+.container-plantel .box2 table tbody tr td {
+  color: #fac232;
+  padding: 15px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+.container-plantel .box2 table tbody tr:hover {
+  background: rgba(248, 223, 32, 0.4);
 }
 
 footer {
