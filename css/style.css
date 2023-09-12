@@ -83,6 +83,12 @@ header nav ul li a:hover {
     width: 90%;
     border-radius: 10px;
   }
+  .container-socios h6 {
+    color: #fac232;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+  }
   footer .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
@@ -106,6 +112,7 @@ header nav ul li a:hover {
   min-height: 100px;
   max-height: 800px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .container .partidos {
   padding-top: 40px;
@@ -120,6 +127,7 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 .container .video {
   margin-top: 20px;
@@ -150,6 +158,7 @@ header nav ul li a:hover {
   margin-bottom: 50px;
 }
 .container .refuerzos .refuerzo {
+  cursor: pointer;
   margin-top: 20px;
   background-color: #fac232;
   border-radius: 10px;
@@ -210,6 +219,18 @@ header nav ul li a:hover {
 }
 .container-plantel .box2 table tbody tr:hover {
   background: rgba(248, 223, 32, 0.4);
+}
+
+.container-socios h6 {
+  color: #fac232;
+  font-size: 25px;
+  text-align: center;
+  padding: 150px;
+}
+.container-socios h6:hover {
+  transition: 300ms;
+  color: black;
+  background-color: #fac232;
 }
 
 footer {
